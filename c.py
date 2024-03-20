@@ -1,12 +1,16 @@
 import requests
+from bs4 import BeautifulSoup
 
-requisicao = requests.get("https://azmina.com.br/penhas-saiba-mais/")
+requisicao = requests.get("https://g1.globo.com/")
 
-print(requisicao)
+
+soup = BeautifulSoup(requisicao.content, 'html.parser')
+titulo = soup.find_all('body')
+print(titulo.text)
 
 # .status_code = retorna o codigo da solicitação
 # .headers = retorna o cabeçalho
-# .headers = retorna o conteudo
+# .content = retorna o conteudo
 
 
 
