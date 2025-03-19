@@ -63,6 +63,8 @@ Os dicionários (dict) são estruturas de dados chave-valor. Eles são mutáveis
 |dict.update(outro_dict)|	Atualiza o dicionário com outro dicionário|
 |dict.pop("chave")|	Remove e retorna o valor da chave|
 |dict.clear()|	Remove todos os itens|
+|dict.setdefault()|	retorna o valor da chave, mas se não existir insere a chave com valor especificado|
+|***dict***.fromkeys()|Crio um dicionário com as chaves passadas recebendo o valor especificado na função|
 
     print(dados.keys())   # dict_keys(['nome', 'idade', 'cidade'])
 

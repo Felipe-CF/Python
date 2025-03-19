@@ -16,3 +16,7 @@ comb = [fruta for fruta in frutas if len(fruta) < 4]
 
 print(comb)
 
+set1 = {1, 2, 3}
+set2 = {0, 3}
+
+print(set1.symmetric_difference(set2))

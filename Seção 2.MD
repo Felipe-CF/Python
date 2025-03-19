@@ -1,4 +1,4 @@
-# **Variavéis, Strings, Listas, Tuplas, Dicionários (Comprehension), Conjuntos (Set), Matrizes**
+# **Variavéis e Strings**
 
 ## Variavéis
 
@@ -107,13 +107,3 @@ mensagem = f"teste {i:.2f}" duas casas decimais
 mensagem = "teste {} {}.format(i, f)" 
 
 ```
-
-
-
-## Tuplas
-
-## Dicionários
-
-## Conjuntos
-
-## Matrizes
