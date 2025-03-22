@@ -84,6 +84,12 @@ Quando o failsafe está ativado (que é o padrão), se o mouse for movido para a
 **Desativado**: Caso você queira desativar o failsafe, você pode fazer isso definindo a variável pyautogui.FAILSAFE como False.
 
 
+### Teclas de Atalho
+
+Todas as combinações suportadas pelo Windows podem ser usadas aqui através do `pyautogui.hotkey()`, onde cada tecla é passada como parametro
+
+    pyautogui.hotkey()
+
 ### Funções Auxiliares
 
 * Verificação de Tamanho da Tela: Para saber a resolução da tela.
@@ -99,11 +105,3 @@ width, height = pyautogui.size()
 x, y = pyautogui.position()
 
 ```
-
-
-
-
-
-
-
-
